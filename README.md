@@ -11,9 +11,9 @@ Simulador por eventos discretos desenvolvido para a disciplina de **Simulação 
 
 ## Evolução do projeto
 
-Nos módulos anteriores, o grupo implementou em Java um cenário específico de duas filas em tandem. Nesta etapa, o motor foi generalizado em Python: as filas, entradas externas e probabilidades de roteamento são carregadas do arquivo YAML.
+Nos módulos anteriores, o grupo implementou em python um cenário específico de duas filas em tandem. Nesta etapa, o motor foi generalizado também em Python: as filas, entradas externas e probabilidades de roteamento são carregadas do arquivo YAML.
 
-Em resposta ao feedback recebido no M2, o simulador utiliza um gerador congruencial linear com módulo maior que `2^32`:
+Em resposta ao feedback recebido no M6, o simulador utiliza um gerador congruencial linear com módulo maior que `2^32`:
 
 ```text
 X(n+1) = (25214903917 * X(n) + 11) mod 2^48
